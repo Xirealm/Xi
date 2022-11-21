@@ -6,7 +6,4 @@
   <img  src="https://github-readme-stats.vercel.app/api?username=Xirealm&show_icons=true&hide=contribs,prs&locale=cn" />
 </div>
 
-<div align="center">
-    <img  src="https://github-readme-stats.vercel.app/api/top-langs/?username=Xirealm&layout=compact" />
-</div>
 
