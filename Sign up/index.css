@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    margin: auto;
+    width: 450px;
+}
+
+.background{
+    position: relative;
+    top: 50px;
+    background: url(images/background.png) no-repeat;
+    height: 1060px;
+    width: 600px;
+    margin: auto;
+    overflow: hidden;
+    /* box-sizing: border-box; */
+}
+
+.background .lines{
+    background:url(images/lines.png) no-repeat;
+    height: 1060px;
+    width: 605px;
+}
+
+.background .shadow{
+    background:rgba(255, 255, 255, 0.1);
+    height: 1060px;
+    width: 600px;
+    border-radius: 2%;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 580px;
+    height: 100px;
+    margin: auto;
+}
+
+.icon-zuojiantou {
+    font-size: 50px;
+    font-weight: 500;
+    color: white;
+    opacity: 0.5;
+}
+
+.header h1{
+    color: white;
+    opacity: 0.7;
+    font-weight:lighter ;
+}
+
+.icon-info {
+    font-size: 50px;
+    color: white;
+    opacity: 0.5;
+}
+
+.addPhoto{
+    margin: auto;
+    position: relative;
+    top: 65px;
+    height: 150px;
+    width: 150px;
+    border: solid 2px rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 50%;
+}
+
+.icon-tianjiatouxiang{
+    position: absolute;
+    left: 50%;
+    top: 35px;
+    margin-left: -25px;
+    font-size: 50px;
+    font-weight: lighter;
+    color: white;
+    opacity: 0.7;
+}
+
+.addPhoto .photo{
+    position: absolute;
+    height: 40px;
+    width: 100px;
+    left: 50%;
+    margin-left: -50px;
+    top: 95px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    color: white;
+    opacity: 0.7;
+}
+
+.textbox{
+    position: relative;
+    top: 130px;
+    margin-top: 100px;
+    margin: auto;
+    height: 300px;
+    font-size:25px;
+    font-weight: lighter;
+    color: white;
+    overflow: hidden;
+}
+
+.textbox .final{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.textbox .show{
+    font-weight: normal;
+    color: #3cffb5;
+}
+
+.button{
+    position: relative;
+    top: 110px;
+    height: 80px;
+    background: url(images/button.png) no-repeat;
+    text-align: center;
+    line-height: 80px;
+    color: #706d9f;
+    font-size: 35px;
+}
+
+.already{
+    position: relative;
+    top: 130px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-weight: lighter;
+}
+
+.already span{
+    font-weight: normal;
+    color: #3cffb5;
+}
+
+
