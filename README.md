@@ -15,14 +15,6 @@
 <div align="center">
   <img  src="https://github-readme-streak-stats.herokuapp.com?user=Xirealm&theme=solarized-light&locale=zh" />
 </div>
-
-
-
-
-
-
 <div align="center">
   <img  src="https://github-readme-stats.vercel.app/api?username=Xirealm&show_icons=true&hide=contribs,prs&locale=cn" />
 </div>
-
-
